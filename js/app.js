@@ -157,12 +157,12 @@ const data={
       }
     ]
   }
-cardsDom(data)
+cardsDom(data);
   function cardsDom(data){
     let main='';
     
     const cardup= document.getElementById("cards");
-    console.log(cardup)
+    console.log(cardup);
 
 
     for(let i=0;i<data.eventos.length;i++){
